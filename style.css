@@ -1,6 +1,6 @@
    body {
     background-image: url("20190808_Stamp_Pattern.jpg");
-    opacity: 4;
+    opacity: 0;
     padding-top: 35px;
     text-align: center;
     font-family: "whiffregular", Arial, Helvetica, sans-serif;
@@ -42,4 +42,25 @@
     margin-bottom: 1px;
     margin-top:  1px;   
   }
-  <link rel="stylesheet" href="stylesheet.css">
+ 
+  
+  @font-face {
+    font-family: 'whiffbold';
+    src: url('salt_bold-webfont.woff2') format('woff2'),
+         url('salt_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'whiffregular';
+    src: url('salt-webfont.woff2') format('woff2'),
+         url('salt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
